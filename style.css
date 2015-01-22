@@ -1,3 +1,11 @@
 p {
 	color: rgb(50, 0, 255);
 }
+
+h2, .section-title {
+	color:#E58619;
+}
+
+.header-name {
+	color: orange;
+}
