@@ -1,6 +1,8 @@
 p {
 	font-size: smaller;
-	line-height: 1;
+	line-height: 2;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-style: italic;
 }
 .top {
 	color:green;
@@ -8,19 +10,22 @@ p {
 }
 .top p {
 	text-transform: none;
+	color: #E61584;
 }
 h2 {
 	color: yellow;
 	text-shadow: 3px 3px 5px #333;
+	text-align: center
 }
 .middle p {
 	text-shadow: none;
-}
+	text-align: center;
 }
 .bottom {
 	color: #754605;
 	font-weight: bold;
+	text-align: right;
 }
 .bottom p {
-	font-style: normal;
+	font-weight: normal;
 }
