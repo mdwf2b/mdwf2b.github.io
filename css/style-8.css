@@ -1,10 +1,7 @@
-p {
-	font-size: smaller;
-	line-height: 2;
-	font-family: Tahoma, Verdana, sans-serif;
-	font-style: italic;
-}
 .top {
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 1em;
+	line-height: 2;
 	color:green;
 	text-transform: uppercase;
 }
@@ -12,20 +9,25 @@ p {
 	text-transform: none;
 	color: #E61584;
 }
-h2 {
+.middle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
 	color: yellow;
 	text-shadow: 3px 3px 5px #333;
 	text-align: center
 }
 .middle p {
 	text-shadow: none;
-	text-align: center;
+	color: gray;
+	font-size: smaller;
 }
 .bottom {
+	font-family: Times, Georgia, serif;
 	color: #754605;
 	font-weight: bold;
 	text-align: right;
 }
 .bottom p {
 	font-weight: normal;
+	color: orange;
 }
